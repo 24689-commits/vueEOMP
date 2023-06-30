@@ -1,6 +1,6 @@
 <template>
     <div>
-       <p>copyright &copy; 2023</p>
+       <h1>Contact</h1>
     </div>
 </template>
 
