@@ -15,7 +15,7 @@
                     <router-link to="/about">About</router-link>
                   </li>
                   <li class="nav-item">
-                    <router-link to="/education">Education and Experience</router-link>
+                    <router-link to="/education">Resume</router-link>
                   </li>
                   <li class="nav-item">
                     <router-link to="/skills">Skills</router-link>
@@ -35,8 +35,6 @@
           </nav>
     </div>
 </template>
-<!-- <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> -->
 <script>
     export default {
         
