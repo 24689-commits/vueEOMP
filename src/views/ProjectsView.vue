@@ -7,6 +7,7 @@
           <img class="card-img-top img-fluid" :src="project.image" :alt="project.title" style="height:200px;">
           <div class="card-body">
             <h5 class="card-title">{{ project.title }}</h5>
+             <p class="card-title">{{ project.description }}</p>
             <a :href="project.netlify" target="_blank" class="btn btn-primary">Netlify</a>
             <a :href="project.github" target="_blank" class="btn btn-secondary">GitHub</a>
           </div>
