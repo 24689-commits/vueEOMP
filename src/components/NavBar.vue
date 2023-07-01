@@ -18,9 +18,6 @@
                     <router-link to="/education">Resume</router-link>
                   </li>
                   <li class="nav-item">
-                    <router-link to="/skills">Skills</router-link>
-                  </li>
-                  <li class="nav-item">
                     <router-link to="/testimonials">Testimonials</router-link>
                   </li>
                   <li class="nav-item">
