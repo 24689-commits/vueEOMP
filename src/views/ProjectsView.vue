@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-4" v-for="project in projects" :key="project.id">
         <div class="card mb-4">
-          <img :src="project.image" class="card-img-top" :alt="project.title">
+          <img class="card-img-top img-fluid" :src="project.image" :alt="project.title" style="height:200px;">
           <div class="card-body">
             <h5 class="card-title">{{ project.title }}</h5>
             <a :href="project.netlify" target="_blank" class="btn btn-primary">Netlify</a>
@@ -15,6 +15,7 @@
     </div>
   </div>
 </template>
+
 
 <script>
 export default {
