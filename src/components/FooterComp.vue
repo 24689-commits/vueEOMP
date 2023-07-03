@@ -3,8 +3,7 @@
         <footer class="footer text-center mt-5" style="background-color: rgb(178, 173, 173);">
             <p>aphelelejoyi@gmail.com</p>
             <p>067 024 1734</p>
-            <p>183 Khali Street, Harare, 7784</p>
-            <p>Copyright &copy; 2023</p>
+            <p class="padding">Copyright &copy; 2023. All rights reserved</p>
     <div class="social-icons">
       <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp"
@@ -68,5 +67,9 @@
   p {
     margin-bottom: 0.5rem;
   }
+  .padding{
+    margin-bottom: 1.5rem;
+  }
+  
 
 </style>

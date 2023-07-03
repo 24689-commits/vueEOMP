@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,6 +32,7 @@
           </nav>
     </div>
 </template>
+
 <script>
     export default {
         
@@ -39,5 +40,32 @@
 </script>
 
 <style scoped>
+.navbar {
+  background-color:rgb(210, 208, 208)!important; 
+  color: rgb(76, 36, 36);
+}
+nav a.router-link-exact-active
+
+.navbar-brand {
+  color: rgb(145, 107, 107);
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item a {
+  color: rgb(83, 146, 191);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: rgb(91, 68, 92); 
+}
+.navbar-nav .nav-item .router-link-active{
+  color: rgb(198, 33, 63);
+}
 
 </style>
