@@ -55,7 +55,7 @@ export default {
 
 <style scoped>
 .background{
-   background-image: url('https://i.postimg.cc/Z5Jr23F9/shutterstock-582803470.jpg');
+  background-image: url('https://i.postimg.cc/Z5Jr23F9/shutterstock-582803470.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

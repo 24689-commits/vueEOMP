@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-     <h1>Home</h1>
+     <h1 class="head">Home</h1>
   </div>
 </template>
 
@@ -14,3 +14,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.head{
+  margin-top: 80px;
+}
+</style>
