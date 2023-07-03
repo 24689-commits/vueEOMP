@@ -46,7 +46,7 @@
   margin-top: 60px;
   width: 80%;
   height: 100%;
-  box-shadow: 20px 20px 20px 20px rgba(42, 39, 39, 0.4);
+  
 }
 
 .card-asp {
