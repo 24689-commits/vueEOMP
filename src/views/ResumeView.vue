@@ -1,5 +1,6 @@
 <template>
-    <h1 class="head">Education | Experience</h1>
+<div>
+  <h1 class="head">Education | Experience</h1>
   <div class="main-content">
     <section class="col">
       <header class="title">
@@ -26,6 +27,7 @@
         </div>
       </div>
     </section>
+  </div>
   </div>
 
   <div class="container">
@@ -91,17 +93,16 @@ export default {
   align-items: center;
   width: 80%;
   margin: 0 auto;
-  padding-top: 50px;
 }
 .head{
   
   text-align: center;
    padding-top: 100px;
+   margin-bottom: 50px;
 }
 
 .main-content .col {
   flex-basis: 50%;
-  padding: 10px 20px;
   border-radius: 8px;
   background-color: #f5f5f5;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -197,7 +198,10 @@ export default {
 .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
-
+.head {
+  text-align: center;
+  padding-bottom: 0;
+}
 
 
 
