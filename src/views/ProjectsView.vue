@@ -123,6 +123,9 @@ export default {
   animation: heading-animation 2s ease-in-out infinite;
   background: linear-gradient(to right, #514b4b, #bb9065);
 }
+div .col{
+  margin-top: 0;
+}
 
 @keyframes heading-animation {
   0% {

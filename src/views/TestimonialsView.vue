@@ -1,4 +1,5 @@
 <template>
+<div class="background">
   <div class="container">
     <h1>Testimonials</h1>
     <div class="row">
@@ -15,6 +16,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -31,6 +33,12 @@ export default {
 </script>
 
 <style scoped>
+.background{
+ background-image: url('https://i.postimg.cc/Z5Jr23F9/shutterstock-582803470.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
 h1{
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -40,25 +48,30 @@ h1{
 }
 
 .card {
-  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  background-color: rgb(226, 222, 216);
 }
 
 .card:hover {
   transform: translateY(-5px);
+  transform: scale(1.05);
 }
 
 .card-img-wrapper {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   height: 150px;
 }
 
 .card-img-top {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 130px;
+  max-height: 130px;
   object-fit: cover;
 }
 
@@ -67,6 +80,7 @@ h1{
 }
 
 .card-body {
+  padding-top: 50px;
   padding: 15px;
 }
 
@@ -82,3 +96,25 @@ h1{
   color: #777;
 }
 </style>
+
+
+
+
+<!--
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #666;
+} -->
