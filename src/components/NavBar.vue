@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#"> Thembisa Joyi</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -43,6 +43,7 @@
 .navbar {
   background-color:rgb(210, 208, 208)!important; 
   color: rgb(76, 36, 36);
+  height: 80px;
 }
 nav a.router-link-exact-active
 
@@ -56,7 +57,7 @@ nav a.router-link-exact-active
 }
 
 .navbar-nav .nav-item a {
-  color: rgb(83, 146, 191);
+  color: black;
   text-decoration: none;
   transition: color 0.3s;
 }

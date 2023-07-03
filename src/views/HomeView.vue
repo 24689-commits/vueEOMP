@@ -1,28 +1,28 @@
 <template>
-  <div class="home align-center">
-    <div class="card" style="max-width: 100%; max-height:100%">
-      <div class="row g-0">
-        <div class="col">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <div class="background">
+    <div class="home align-center">
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-sm">
+              <div class="card-body">
+                <h3 class="card-hi">HI THERE!</h3>
+                <h1 class="card-name">I'm <span>Aphelele Joyi</span></h1>
+                <h4 class="card-asp">An aspiring full-stack developer</h4>
+                <button  class="btnConnect" @click="$router.push('/contact')">Connect with me</button>
+              </div>
+            </div>
+            <div class="col-sm gray-background"> 
+              <div class="image-container">
+                <img src="https://i.postimg.cc/bwF80f5T/C12-Aphelele-Joyi-1-removebg-preview.png" class="img-fluid img-top" alt="profile image">
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <img src="https://i.postimg.cc/KjnTKFVD/Thotyelwa-Mpongwana.jpg" class="img-fluid img-top" alt="...">
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'HomeView',
-  components: {},
-};
-</script>
 
 <style scoped>
 .align-center {
@@ -31,10 +31,100 @@ export default {
   align-items: center;
   flex-direction: column;
 }
-.head {
-  margin-top: 80px;
+
+.card-wrapper {
+  margin-top: 60px;
+  margin-bottom: 75px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.home {
-  margin-top: 56px;
+
+.card {
+  margin-top: 60px;
+  width: 80%;
+  height: 100%;
+  box-shadow: 20px 20px 20px 20px rgba(42, 39, 39, 0.4);
+}
+
+.card-asp {
+  background-color: #ccba5f;
+}
+
+.card-hi {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-name {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+span {
+  color: rgb(173, 173, 111);
+}
+
+
+
+.image-container {
+  width: 100%; 
+  height: 100%;
+  background-image: url('https://i.postimg.cc/BQ36G5cH/photo-1600456899121-68eda5705257-ixlib-rb-4-0.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btnConnect {
+  margin-top: 30px;
+  padding: 10px 18px;
+  background-color: #b9b745; 
+  color: white; 
+  border: none;
+  border-radius: 6px; 
+  font-size: 18px; 
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Bootstrap Media Queries */
+@media (max-width: 576px) {
+  .card-name {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 790px) {
+  .card-name {
+    font-size: 45px;
+  }
+  .image-container{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card-name {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card-name {
+    font-size: 50px;
+  }
 }
 </style>
