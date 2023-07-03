@@ -3,15 +3,15 @@
     <h1 class="heading"><span class="highlight">Connect</span> with me</h1>
     <div class="container">
       <div class="form-container">
-        <form action="https://formspree.io/f/xgebdjdv" method="post">
+        <form action="https://formspree.io/f/xgebdjdv" method="POST">
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Enter name">
+          <input type="text" id="fname" name="firstname" placeholder="Enter name" required>
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Enter surname">
+          <input type="text" id="lname" name="lastname" placeholder="Enter surname" required>
           <label for="email">Email address</label>
-          <input type="text" id="email" name="email_address" placeholder="Enter email address">
+          <input type="text" id="email" name="email_address" placeholder="Enter email address" required>
           <label for="subject">Message</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px;"></textarea>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px;" required></textarea>
           <input type="submit" value="Submit" class="submit-button">
         </form>
       </div>
@@ -65,7 +65,8 @@ export default {
 }
 
 .form-container {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 form {

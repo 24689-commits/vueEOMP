@@ -1,5 +1,5 @@
 <template>
-    <div class="col text-md-center">
+    <div class="col text-md-center" id="gap">
         <footer class="footer text-center mt-5" style="background-color: rgb(178, 173, 173);">
             <p>aphelelejoyi@gmail.com</p>
             <p>067 024 1734</p>
