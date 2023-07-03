@@ -34,13 +34,13 @@ export default {
 
 <style scoped>
 .background{
- background-image: url('https://i.postimg.cc/Z5Jr23F9/shutterstock-582803470.jpg');
+ background-image: url('');
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
 }
 h1{
-  padding-top: 3rem;
+  padding-top: 5rem;
   padding-bottom: 1rem;
 }
 .container {

@@ -1,6 +1,5 @@
 <template>
   <div class="background">
-    <h1 class="heading"><span class="highlight">Connect</span> with me</h1>
     <div class="container">
       <div class="form-container">
         <form action="https://formspree.io/f/xgebdjdv" method="POST">
@@ -27,25 +26,20 @@ export default {
 
 <style scoped>
 .background {
-  background-image: url('https://i.postimg.cc/gkYYd3H3/website-internet-contact-us-page-concept-with-phone-chat-email-icons-symbol-telephone-mail-mobile-ph.jpg');
+  margin-top: 80px;
+  background-image: url('');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: gray;
 }
 
 .container {
+  margin-top: 60px;
   width: 50%;
-  margin: 0 auto;
+
 }
 
-.heading {
-  text-align: center;
-  margin-top: 20px;
-  animation: fade-in 1s ease-in-out;
-  text-decoration: underline;
-  font-weight: bold;
-  padding-top: 70px; 
-}
 
 
 .highlight {
@@ -53,16 +47,6 @@ export default {
   font-weight: bold;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 .form-container {
   margin-top: 20px;
@@ -76,10 +60,9 @@ form {
 
 label {
   margin-bottom: 8px;
-  font-size: 20px; 
+  font-size: 14px; 
   font-weight: bold; 
   color: #3c2c2c;
-  text-decoration: underline dotted;
 }
 
 input[type="text"],
@@ -94,7 +77,7 @@ textarea {
 }
 
 .submit-button {
-  background-color: darkslategrey;
+  background-color: #b9b745;
   color: white;
   padding: 12px 20px;
   border: none;
