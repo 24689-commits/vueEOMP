@@ -3,10 +3,10 @@
   <div class="container">
     <h1>Testimonials</h1>
     <div class="row">
-      <div class="col-lg-4" v-for="testimonial in testimonials" :key="testimonial.id">
+      <div class="col-lg-4 pb-5" v-for="testimonial in testimonials" :key="testimonial.id">
         <div class="card h-100 mb-4">
           <div class="card-img-wrapper">
-            <img :src="testimonial.image" class="card-img-top rounded-circle" :alt="testimonial.title">
+            <img :src="testimonial.image" class="card-img-top img-fluid rounded-circle" :alt="testimonial.title">
           </div>
           <div class="card-body">
             <h5 class="card-title">{{ testimonial.name }}</h5>
@@ -46,7 +46,6 @@ h1{
 
 .card {
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   margin-top: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -60,15 +59,15 @@ h1{
 }
 
 .card-img-wrapper {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
-  height: 150px;
+  height: 110px;
 }
 
 .card-img-top {
-  max-width: 130px;
-  max-height: 130px;
+  width: 110px;
+  height: 110px;
   object-fit: cover;
 }
 
@@ -79,39 +78,23 @@ h1{
 .card-body {
   padding-top: 50px;
   padding: 15px;
+  height: 190px;
 }
 
 .card-title {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #333;
+  color: #743f3f;
 }
 
 .card-text {
   font-size: 0.9rem;
   color: #777;
 }
+
 </style>
 
 
 
 
-<!--
-.card:hover {
-  transform: scale(1.05);
-}
-
-.card-img-top {
-  height: 200px;
-  object-fit: cover;
-}
-
-.card-title {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.card-text {
-  color: #666;
-} -->
