@@ -98,6 +98,10 @@ p {
 
 
 @media (max-width: 768px) {
+  .content {
+    width: 80%;
+  }
+
   h1 {
     font-size: 28px;
   }
@@ -105,5 +109,47 @@ p {
   p {
     font-size: 16px;
   }
+}
+@media (max-width: 476px) {
+  .content {
+    width: 100%;
+
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    padding-inline: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .bi{
+  margin-top: 15px;
+  color: rgb(82, 45, 45);
+}
+}
+@media (max-width: 320px) {
+  .content {
+    width: 100%;
+
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .bi{
+  margin-top: 6px;
+  color: rgb(82, 45, 45);
+}
 }
 </style>

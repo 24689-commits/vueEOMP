@@ -58,7 +58,7 @@ export default {
  background-color: gray;
 }
 .container {
-  margin-top: 90px;
+  margin-top: 120px;
 }
 
 .card {
