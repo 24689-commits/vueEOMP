@@ -34,10 +34,7 @@ export default {
 
 <style scoped>
 .background{
- background-image: url('');
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
+  background-color: gray;
 }
 h1{
   padding-top: 5rem;
