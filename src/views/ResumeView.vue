@@ -1,8 +1,7 @@
 <template>
-<div>
-  <h1 class="head">Education | Experience</h1>
-  <div class="main-content">
-    <section class="col">
+  <div class="background">
+    <h1 class="head">Education | Experience</h1>
+    <div class="col">
       <header class="title">
         <h2>Education</h2>
       </header>
@@ -13,9 +12,9 @@
           <p>{{ edu.description }}</p>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="col">
+    <div class="col">
       <header class="title">
         <h2>Work and Experience</h2>
       </header>
@@ -26,28 +25,28 @@
           <p>{{ exp.description }}</p>
         </div>
       </div>
-    </section>
-  </div>
-  </div>
+    </div>
 
-  <div class="container">
-    <h1>Skill Set</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ut eveniet sapiente dolore omnis dolorem, dignissimos, nostrum quasi, aperiam exercitationem saepe eius! Laudantium sapiente consequuntur mollitia nemo facere reprehenderit dicta.</p>
-    <div class="row">
-      <div class="col-lg-4" v-for="skill in skills" :key="skill.id">
-        <div class="card mb-4">
-          <img :src="skill.image" class="card-img-top img-fluid" :alt="skill.title">
-          <div class="card-body">
-            <h5 class="card-title">{{ skill.title }}</h5>
-            <p class="card-text" v-if="!skill.showMore">{{ truncateText(skill.description) }}</p>
-            <p class="card-text" v-else>{{ skill.description }}</p>
-            <button class="btn btn-primary" @click="toggleShowMore(skill)">
-              {{ skill.showMore ? 'Read Less' : 'Read More' }}
-            </button>
+    <div class="container">
+      <h1>Skill Set</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ut eveniet sapiente dolore omnis dolorem, dignissimos, nostrum quasi, aperiam exercitationem saepe eius! Laudantium sapiente consequuntur mollitia nemo facere reprehenderit dicta.</p>
+      <div class="row">
+        <div class="col-lg-4" v-for="skill in skills" :key="skill.id">
+          <div class="card mb-4">
+            <img :src="skill.image" class="card-img-top img-fluid" :alt="skill.title">
+            <div class="card-body">
+              <h5 class="card-title">{{ skill.title }}</h5>
+              <p class="card-text" v-if="!skill.showMore">{{ truncateText(skill.description) }}</p>
+              <p class="card-text" v-else>{{ skill.description }}</p>
+              <button class="btn btn-primary" @click="toggleShowMore(skill)">
+                {{ skill.showMore ? 'Read Less' : 'Read More' }}
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -85,30 +84,29 @@ export default {
 </script>
 
 <style scoped>
+.background {
+  background-color: gray;
+}
 
-/* ============================================== EDUCATION AND EXPERIENCE =========================================== */
-.main-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.col {
   width: 80%;
-  margin: 0 auto;
-}
-.head{
-  
-  text-align: center;
-   padding-top: 100px;
-   margin-bottom: 50px;
-}
-
-.main-content .col {
-  flex-basis: 50%;
+  margin: 40px auto;
+  padding-bottom: 10px;
+  align-items: center; 
   border-radius: 8px;
-  background-color: #f5f5f5;
+  background-color: #c4b2b2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
-.main-content h2 {
+
+.title {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.title h2 {
+  padding-top: 15px;
   font-size: 1.2rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -128,7 +126,7 @@ export default {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #555;
+  color: #473e3e;
 }
 
 .box h3 {
@@ -140,11 +138,9 @@ export default {
 
 .box p {
   font-size: 0.9rem;
-  color: #777;
+  color: #3b51c3;
 }
 
-
-/* ======================================= SKILLS  ==================================================== */
 .container {
   padding-top: 2rem;
 }
@@ -198,14 +194,10 @@ export default {
 .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
+
 .head {
   text-align: center;
-  padding-bottom: 0;
+  padding-top: 100px;
+  margin-bottom: 30px;
 }
-
-
-
-
-
-
 </style>
