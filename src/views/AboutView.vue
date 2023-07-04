@@ -2,7 +2,7 @@
   <div class="about">
     <div class="overlay"></div>
     <div class="content">
-      <h1>About Me</h1>
+      <h1>ABOUT ME</h1>
       <p>
         I am an enthusiastic learner currently enrolled in the full-stack coding course at Life Choices Academy. My name is Aphelele Joyi, and I am excited to embark on this transformative journey to master the art of web development. Through this immersive program, I am acquiring hands-on experience in front-end and back-end development, honing my skills in HTML, CSS, JavaScript, and various programming languages and frameworks. With a strong commitment to problem-solving and attention to detail, I strive to deliver innovative solutions that make a positive impact in the digital world.
       </p>
@@ -45,7 +45,6 @@
 
 <style scoped>
 .about {
-  background-image: url('');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -74,7 +73,8 @@
 h1 {
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 65px;
 }
 
 p {
@@ -82,6 +82,20 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+.bi{
+  margin-top: 40px;
+  color: rgb(82, 45, 45);
+}
+
 
 @media (max-width: 768px) {
   h1 {
@@ -92,13 +106,4 @@ p {
     font-size: 16px;
   }
 }
-.social-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.social-icons a {
-  margin: 0 10px;
-}
-
 </style>
