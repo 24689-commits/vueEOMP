@@ -1,14 +1,18 @@
 <template>
-
   <div class="container">
     <h1>Testimonials</h1>
     <div class="row">
-      <div class="col-lg-4 pb-5" v-for="testimonial in testimonials" :key="testimonial.id">
-        <div class="card h-100 mb-4">
+      <div
+        class="col-lg-4 col-md-6 col-sm-12 pb-4"
+        v-for="testimonial in testimonials"
+        :key="testimonial.id"
+      >
+        <div class="card mb-4">
           <div class="card-img-wrapper">
             <img :src="testimonial.image" class="card-img-top img-fluid rounded-circle" :alt="testimonial.title">
           </div>
           <div class="card-body">
+            <h6 class="card-title">{{ testimonial.role }}</h6>
             <h5 class="card-title">{{ testimonial.name }}</h5>
             <p class="card-text">{{ testimonial.description }}</p>
           </div>
@@ -16,7 +20,6 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -43,6 +46,7 @@ h1{
 }
 
 .card {
+  height: 380px;
   overflow: hidden;
   transition: transform 0.3s ease;
   margin-top: 20px;
@@ -89,6 +93,12 @@ h1{
 .card-text {
   font-size: 0.9rem;
   color: #777;
+}
+
+@media (max-width: 475px) {
+  .card{
+    height: 475px;
+  }
 }
 
 </style>

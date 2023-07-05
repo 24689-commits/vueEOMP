@@ -29,7 +29,7 @@
 
     <div class="container">
       <h1>Skill Set</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ut eveniet sapiente dolore omnis dolorem, dignissimos, nostrum quasi, aperiam exercitationem saepe eius! Laudantium sapiente consequuntur mollitia nemo facere reprehenderit dicta.</p>
+      <p>As a student web developer and programming student, I possess a strong set of soft skills that enable me to excel in the field. With effective communication skills, I am able to express complex technical concepts clearly and confidently, both verbally and in written form. Additionally, my adaptability allows me to embrace change and quickly learn new programming languages, frameworks, and tools, ensuring I can tackle any challenge that comes my way. I also bring strong problem-solving abilities, approaching issues with a systematic and analytical mindset, breaking them down into manageable components to find efficient solutions. Furthermore, I thrive in a team-oriented environment, collaborating effectively with others, respecting diverse perspectives, and contributing constructively to achieve shared goals. I am skilled in time management, prioritizing tasks and meeting project deadlines, while continuously embracing a learning mindset, seeking out opportunities to expand my knowledge and stay up to date with industry trends. Overall, I am committed to excelling as a student web developer and programming student, constantly growing my skills and making meaningful contributions to collaborative projects. I also possess a lot of hard skills which are listed below:</p>
       <div class="row">
         <div class="col-lg-4" v-for="skill in skills" :key="skill.id">
           <div class="card mb-4">
