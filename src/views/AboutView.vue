@@ -52,7 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  background-color: #fff;
 }
 
 .overlay {
@@ -67,7 +67,6 @@
 .content {
   text-align: center;
   color: rgb(50, 50, 74);
-  z-index: 1;
   width: 60%;
 }
 
@@ -97,6 +96,7 @@ p {
   margin-top: 40px;
   color: rgb(14, 14, 14);
 }
+
 
 @media (max-width: 768px) {
   .content {

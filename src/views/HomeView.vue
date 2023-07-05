@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div class="container">
     <div class="home align-center">
       <div class="card-wrapper">
         <div class="card">
@@ -70,9 +70,7 @@
   justify-content: center;
   height: 100%;
 }
-.background{
-  background-color: gray;
-}
+
 
 span {
   color: rgb(173, 173, 111);

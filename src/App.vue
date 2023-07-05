@@ -1,13 +1,15 @@
 <template>
-  <NavBar/>
-  <router-view/>
-  <footer-comp/>
+  <NavBar />
+  <main>
+    <router-view />
+  </main>
+  <footer-comp />
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
+import NavBar from './components/NavBar.vue';
 import FooterComp from './components/FooterComp.vue'
-export default{
-  components:{
+export default {
+  components: {
     NavBar,
     FooterComp
   }
@@ -15,13 +17,13 @@ export default{
 </script>
 
 <style>
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: gray;
 }
 
 nav {
