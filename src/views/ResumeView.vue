@@ -33,7 +33,7 @@
       <div class="row">
         <div class="col-lg-4" v-for="skill in skills" :key="skill.id">
           <div class="card mb-4">
-            <img :src="skill.image" class="card-img-top img-fluid" :alt="skill.title">
+            <img :src="skill.image" class="card-img-top" :alt="skill.title">
             <div class="card-body">
               <h5 class="card-title">{{ skill.title }}</h5>
               <p class="card-text" v-if="!skill.showMore">{{ truncateText(skill.description) }}</p>
@@ -154,8 +154,10 @@ export default {
 }
 
 .card-img-top {
-  height: 200px;
-  object-fit: 100%;
+  margin: auto;
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
 }
 
 .card-body {
