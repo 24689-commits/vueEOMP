@@ -1,5 +1,5 @@
 <template>
-<div class="background">
+<div class="container">
   <div class="container">
     <h1 class="text-center mb-4 animated-heading"><span>Explore</span> My Work</h1>
     <div class="row">
@@ -54,9 +54,7 @@ export default {
 </script>
 
 <style scoped>
-.background{
- background-color: gray;
-}
+
 .container {
   margin-top: 120px;
 }

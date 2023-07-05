@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div class="container">
     <h1 class="head">Education | Experience</h1>
     <div class="col">
       <header class="title">
@@ -84,9 +84,7 @@ export default {
 </script>
 
 <style scoped>
-.background {
-  background-color: gray;
-}
+
 
 .col {
   width: 80%;

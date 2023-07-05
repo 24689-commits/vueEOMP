@@ -1,5 +1,5 @@
 <template>
-<div class="background">
+
   <div class="container">
     <h1>Testimonials</h1>
     <div class="row">
@@ -16,7 +16,7 @@
       </div>
     </div>
   </div>
-</div>
+
 </template>
 
 <script>
@@ -33,9 +33,7 @@ export default {
 </script>
 
 <style scoped>
-.background{
-  background-color: gray;
-}
+
 h1{
   padding-top: 5rem;
   padding-bottom: 1rem;
