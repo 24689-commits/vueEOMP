@@ -41,10 +41,12 @@ h1{
   padding-top: 5rem;
   padding-bottom: 1rem;
 }
-.container {
-  padding-top: 2rem;
+.background{
+  margin-top: 120px;
+  background-image: url('https://i.postimg.cc/L4b7FvHf/gray-diagonal-background-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
-
 .card {
   height: 380px;
   overflow: hidden;
