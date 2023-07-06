@@ -61,7 +61,9 @@ export default {
 
 <style scoped>
 
-
+.background{
+  margin-top: 120px;
+}
 .container {
   margin-top: 60px;
   width: 50%;
