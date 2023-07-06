@@ -19,13 +19,6 @@
               d="M14.146 2H1.854C1.355 2 1 2.355 1 2.854v10.292c0 .499.355.854.854.854h12.292c.499 0 .854-.355.854-.854V2.854C15 2.355 14.645 2 14.146 2zM13 3.854L8 7.961 3 3.854V4l5 3.807L13 4v-.146zM2 3.854L7 7.961 2 12.068V3.854z" />
           </svg>
         </a>
-        <a href="https://www.facebook.com/phesta.joyi" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook"
-            viewBox="0 0 16 16">
-            <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-          </svg>
-        </a>
         <a href="https://www.linkedin.com/in/aphelele-joyi-1717a7276/" target="_blank" rel="noopener noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin"
             viewBox="0 0 16 16">
@@ -55,14 +48,7 @@
   background-color: #fff;
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-}
+
 
 .content {
   text-align: center;
@@ -91,12 +77,21 @@ p {
 .social-icons a {
   margin: 0 10px;
 }
+.social-icons :hover {
+  color: blue;
+}
+
 
 .bi {
   margin-top: 40px;
   color: rgb(14, 14, 14);
 }
-
+.about{
+  background-image: url('https://i.postimg.cc/L4b7FvHf/gray-diagonal-background-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  
+}
 
 @media (max-width: 768px) {
   .content {

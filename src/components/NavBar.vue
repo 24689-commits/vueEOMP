@@ -64,7 +64,7 @@
   color: rgb(91, 68, 92); 
 }
 .navbar-nav .nav-item .router-link-active{
-  color: rgb(198, 33, 63);
+  color:#8a8a8a;
 }
 
 </style>
