@@ -12,8 +12,8 @@
             <img :src="testimonial.image" class="card-img-top img-fluid rounded-circle" :alt="testimonial.title">
           </div>
           <div class="card-body">
-            <h6 class="card-title">{{ testimonial.role }}</h6>
             <h5 class="card-title">{{ testimonial.name }}</h5>
+            <h6 class="card-title">{{ testimonial.role }}</h6>
             <p class="card-text">{{ testimonial.description }}</p>
           </div>
         </div>
@@ -41,12 +41,7 @@ h1{
   padding-top: 5rem;
   padding-bottom: 1rem;
 }
-.background{
-  margin-top: 120px;
-  background-image: url('https://i.postimg.cc/L4b7FvHf/gray-diagonal-background-wallpaper-preview.jpg');
-  background-repeat: no-repeat;
-  object-fit: cover;
-}
+
 .card {
   height: 380px;
   overflow: hidden;
@@ -97,7 +92,7 @@ h1{
   color: #777;
 }
 
-@media (max-width: 475px) {
+@media (width < 475px) {
   .card{
     height: 475px;
   }

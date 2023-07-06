@@ -9,7 +9,7 @@
                 <h3 class="card-hi">HI THERE!</h3>
                 <h1 class="card-name">I am <span>Aphelele Joyi</span></h1>
                 <h4 class="card-asp">An aspiring full-stack developer</h4>
-                <button  class="btnConnect" @click="$router.push('/contact')">Connect with me</button>
+                <button  class="btnConnect" @click="$router.push('/about')">More about me</button>
               </div>
             </div>
             <div class="col-sm gray-background"> 

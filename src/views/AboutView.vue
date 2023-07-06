@@ -93,7 +93,7 @@ p {
   
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
   .content {
     width: 80%;
   }
@@ -107,7 +107,7 @@ p {
   }
 }
 
-@media (max-width: 476px) {
+@media (width < 476px) {
   .content {
     width: 100%;
   }
@@ -129,7 +129,7 @@ p {
   }
 }
 
-@media (max-width: 320px) {
+@media (width < 320px) {
   .content {
     max-width: 100%;
   }
