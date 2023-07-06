@@ -1,7 +1,7 @@
 import { createStore } from 'vuex';
 
 
-const dataUrl = "https://aphelele2.github.io/eompJson/data/";
+const dataUrl = "https://aphelele2.github.io/eompJson/data";
 
 export default createStore({
   state: {

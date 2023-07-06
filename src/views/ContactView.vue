@@ -114,4 +114,9 @@ textarea {
 .submit-button:hover {
   background-color: darkslategray;
 }
+@media (width < 500px) {
+  .container {
+    width: 90%;
+  }
+}
 </style>

@@ -56,7 +56,7 @@ export default {
 <style scoped>
 
 .container {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .card {
@@ -64,6 +64,7 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
   background-color: rgb(226, 222, 216);
+
 }
 
 .card:hover {
@@ -89,8 +90,14 @@ export default {
 .btn-dark {
   padding: 0.25rem 0.5rem;
   font-size: 14px;
+  
 }
-
+.btn-dark{
+  padding-inline: 27px;
+}
+p{
+  font-size: 17px;
+}
 .button-container {
   display: flex;
   align-items: center;
