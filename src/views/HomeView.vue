@@ -24,6 +24,7 @@
   </div>
 </template>
 
+
 <style scoped>
 .align-center {
   display: flex;
@@ -56,11 +57,17 @@
 .card-hi {
   font-size: 24px;
   font-weight: bold;
+  animation:tada;
+  animation-duration: 2s;
+ 
+
 }
 
 .card-name {
   font-size: 50px;
   font-weight: bold;
+  animation:bounceInLeft;
+  animation-duration: 2s;
 }
 
 .card-body {
@@ -96,8 +103,9 @@ span {
   border-radius: 6px; 
   font-size: 18px; 
   cursor: pointer;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  box-shadow: 3px 6px 0px black; 
 }
+
 
 /* Bootstrap Media Queries */
 @media (max-width: 576px) {

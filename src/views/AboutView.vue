@@ -72,13 +72,18 @@ p {
 .social-icons {
   display: flex;
   justify-content: center;
+  animation:flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
-
+.social-icons:hover{
+  animation-play-state: paused;
+}
 .social-icons a {
   margin: 0 10px;
 }
 .social-icons :hover {
-  color: blue;
+  color:blue;
 }
 
 

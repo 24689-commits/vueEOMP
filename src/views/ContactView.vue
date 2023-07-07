@@ -67,7 +67,6 @@ export default {
 .container {
   margin-top: 60px;
   width: 50%;
-
 }
 .highlight {
   color: rgb(55, 55, 153);
