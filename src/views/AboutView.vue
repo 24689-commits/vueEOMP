@@ -11,6 +11,9 @@
       <p>
         I am thrilled to leverage the skills and knowledge gained from Life Choices Academy to contribute meaningfully to the tech community. If you have any exciting projects or opportunities where I can apply my coding prowess, I am eager to collaborate and create something amazing together. Thank you for taking the time to learn a little bit about me, and I look forward to connecting with you as we embark on an incredible coding journey.
       </p>
+      <a href="https://drive.google.com/uc?export=download&id=1lCv95PTOoiwBcx-nCYj5zSHjqdAF-Xrg" target="_blank" rel="noopener noreferrer">
+        <button class="download-cv-button">Download CV</button>
+      </a>
       <div class="social-icons">
         <a href="mailto:aphelelejoyi@gmail.com" target="_blank" rel="noopener noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope"
@@ -38,6 +41,18 @@
 </template>
 
 <style scoped>
+.download-cv-button{
+  margin-top: 10px;
+  padding: 8px 13px;
+  margin-bottom: 10px;
+  background-color: #b9b745; 
+  color: white; 
+  border: none;
+  border-radius: 6px; 
+  font-size: 16x; 
+  cursor: pointer;
+  box-shadow: 3px 6px 0px black; 
+}
 .about {
   background-size: cover;
   background-position: center;
@@ -88,7 +103,7 @@ p {
 
 
 .bi {
-  margin-top: 40px;
+  margin-top: 30px;
   color: rgb(14, 14, 14);
 }
 .about{
@@ -145,13 +160,13 @@ p {
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0;
     padding: 0;
   }
 
   .bi {
-    margin-top: 6px;
+    margin-top: 13px;
     color: rgb(82, 45, 45);
   }
 }
