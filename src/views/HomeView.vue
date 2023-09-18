@@ -14,7 +14,7 @@
             </div>
             <div class="col-sm gray-background"> 
               <div class="image-container">
-                <img src="https://i.postimg.cc/W4L1WGjD/C12-Aphelele-Joyi-1-removebg-preview-1.png" class="img-fluid img-top" alt="profile image">
+                <img src="https://i.postimg.cc/W4L1WGjD/C12-Aphelele-Joyi-1-removebg-preview_(1).png" class="img-fluid img-top" alt="profile image">
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ span {
 .image-container {
   width: 100%; 
   height: 100%;
-  background-image: url('https://i.postimg.cc/BQ36G5cH/photo-1600456899121-68eda5705257-ixlib-rb-4-0.jpg'); 
+  background-image: url('https://i.postimg.cc/sf8nt9fm/32e636fed89a2304b3a0eb2adbbaaf50.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,7 +107,6 @@ span {
 }
 
 
-/* Bootstrap Media Queries */
 @media (max-width: 576px) {
   .card-name {
     font-size: 40px;
