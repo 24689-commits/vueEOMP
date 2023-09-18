@@ -14,7 +14,7 @@
             </div>
             <div class="col-sm gray-background"> 
               <div class="image-container">
-                <img src="https://i.postimg.cc/bwF80f5T/C12-Aphelele-Joyi-1-removebg-preview.png" class="img-fluid img-top" alt="profile image">
+                <img src="https://i.postimg.cc/W4L1WGjD/C12-Aphelele-Joyi-1-removebg-preview-1.png" class="img-fluid img-top" alt="profile image">
               </div>
             </div>
           </div>

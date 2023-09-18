@@ -9,12 +9,12 @@
       <p>
       </p>
       <p>
-        I am thrilled to leverage the skills and knowledge gained from Life Choices Academy to contribute meaningfully to the tech community. If you have any exciting projects or opportunities where I can apply my coding prowess, I am eager to collaborate and create something amazing together. Thank you for taking the time to learn a little bit about me, and I look forward to connecting with you as we embark on an incredible coding journey.
+        I am thrilled to leverage the skills and knowledge gained from Life Choices Academy to contribute meaningfully to the tech community. In the near future, I see myself diving in the cloud world as it is a field that excites me a lot. If you have any exciting projects or opportunities where I can apply my coding prowess, I am eager to collaborate and create something amazing together. Thank you for taking the time to learn a little bit about me, and I look forward to connecting with you as we embark on an incredible coding journey.
       </p>
       <a href="https://drive.google.com/uc?export=download&id=1lCv95PTOoiwBcx-nCYj5zSHjqdAF-Xrg" target="_blank" rel="noopener noreferrer">
         <button class="download-cv-button">Download CV</button>
       </a>
-      <div class="social-icons">
+      <!-- <div class="social-icons">
         <a href="mailto:aphelelejoyi@gmail.com" target="_blank" rel="noopener noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope"
             viewBox="0 0 16 16">
@@ -34,8 +34,8 @@
             <path
               d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.49-.94-.84-1.13-.29-.14-.71-.49-.01-.5.66-.01 1.13.61 1.28.87.75 1.26 1.95.9 2.43.68.07-.52.29-.9.53-1.11-1.86-.21-3.82-.93-3.82-4.13 0-.91.32-1.65.85-2.23-.09-.21-.37-1.05.08-2.19 0 0 .69-.22 2.27.85.66-.18 1.37-.27 2.08-.27s1.42.09 2.08.27c1.58-1.07 2.27-.85 2.27-.85.45 1.14.17 1.98.08 2.19.53.58.85 1.32.85 2.23 0 3.2-1.96 3.92-3.83 4.13.3.26.57.77.57 1.56 0 1.13-.01 2.04-.01 2.31 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
           </svg>
-        </a>
-      </div>
+        </a> -->
+    
     </div>
   </div>
 </template>
@@ -49,7 +49,7 @@
   color: white; 
   border: none;
   border-radius: 6px; 
-  font-size: 16x; 
+  font-size: 16px; 
   cursor: pointer;
   box-shadow: 3px 6px 0px black; 
 }
@@ -61,9 +61,18 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  position: relative; 
 }
 
-
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color:gray; 
+  opacity: 0.3;
+}
 
 .content {
   text-align: center;
@@ -84,36 +93,12 @@ p {
   margin-bottom: 20px;
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-  animation:flash;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-.social-icons:hover{
-  animation-play-state: paused;
-}
-.social-icons a {
-  margin: 0 10px;
-}
-.social-icons :hover {
-  color:blue;
-}
-
-
 .bi {
   margin-top: 30px;
   color: rgb(14, 14, 14);
 }
-.about{
-  background-image: url('https://i.postimg.cc/L4b7FvHf/gray-diagonal-background-wallpaper-preview.jpg');
-  background-repeat: no-repeat;
-  object-fit: cover;
-  
-}
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   .content {
     width: 80%;
   }
@@ -127,7 +112,7 @@ p {
   }
 }
 
-@media (width < 476px) {
+@media (max-width: 476px) {
   .content {
     width: 100%;
   }
@@ -149,7 +134,7 @@ p {
   }
 }
 
-@media (width < 320px) {
+@media (max-width: 320px) { 
   .content {
     max-width: 100%;
   }
