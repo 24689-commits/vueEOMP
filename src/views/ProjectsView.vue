@@ -16,7 +16,7 @@
               </button>
             </div>
             <div class="d-flex justify-content-center">
-              <a :href="project.netlify" target="_blank" class="btn btn-primary button-smaller">Netlify</a>
+              <a :href="project.netlify" target="_blank" class="btn btn-primary button-smaller">Live Link</a>
               <a :href="project.github" target="_blank" class="btn btn-primary button-smaller">GitHub</a>
             </div>
           </div>
