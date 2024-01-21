@@ -1,30 +1,30 @@
 <template>
-<div class="container">
   <div class="container">
-    <h1 class="text-center mb-4 animated-heading"><span>Explore</span> My Work</h1>
-    <div class="row">
-      <div class="col-lg-4" v-for="project in projects" :key="project.id">
-        <div class="card mb-4">
-          <img class="card-img-top img-fluid" :src="project.image" :alt="project.title" style="height:200px;">
-          <div class="card-body">
-            <h5 class="card-title">{{ project.title }}</h5>
-            <p class="card-text" v-if="!project.showMore">{{ truncateText(project.description) }}</p>
-            <p class="d-flex justify-content-between align-items-center" v-else>{{ project.description }}</p>
-            <div class="button-container d-flex justify-content-center">
-              <button class="btn btn-dark button-smaller mb-1" @click="toggleShowMore(project)">
-                {{ project.showMore ? 'Read Less' : 'Read More' }}
-              </button>
-            </div>
-            <div class="d-flex justify-content-center">
-              <a :href="project.netlify" target="_blank" class="btn btn-primary button-smaller">Live Link</a>
-              <a :href="project.github" target="_blank" class="btn btn-primary button-smaller">GitHub</a>
+    <div class="container">
+      <h1 class="text-center mb-4 animated-heading"><span>Explore</span> My Work</h1>
+      <div class="row">
+        <div class="col-lg-4" v-for="project in projects" :key="project.id">
+          <div class="card mb-4">
+            <img class="card-img-top img-fluid d-flex mx-auto" :src="project.image" :alt="project.title" loading="lazy">
+            <div class="card-body">
+              <h5 class="card-title">{{ project.title }}</h5>
+              <p class="card-text" v-if="!project.showMore">{{ truncateText(project.description) }}</p>
+              <p class="d-flex justify-content-between align-items-center" v-else>{{ project.description }}</p>
+              <div class="button-container d-flex justify-content-center">
+                <button class="btn btn-dark button-smaller mb-1" @click="toggleShowMore(project)">
+                  {{ project.showMore ? 'Read Less' : 'Read More' }}
+                </button>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a :href="project.netlify" target="_blank" class="btn btn-primary button-smaller">Live Link</a>
+                <a :href="project.github" target="_blank" class="btn btn-primary button-smaller">GitHub</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 
@@ -67,11 +67,14 @@ export default {
 
 }
 
+
 .card:hover {
   transform: scale(1.05);
 }
 
 .card-img-top {
+  border-radius: 50%;
+  width: 200px;
   height: 200px;
   object-fit: cover;
 }

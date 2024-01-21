@@ -9,7 +9,7 @@
       >
         <div class="card mb-4">
           <div class="card-img-wrapper">
-            <img :src="testimonial.image" class="card-img-top img-fluid rounded-circle" :alt="testimonial.title">
+            <img :src="testimonial.image" class="card-img-top img-fluid rounded-circle" :alt="testimonial.title" loading="lazy">
           </div>
           <div class="card-body">
             <h5 class="card-title">{{ testimonial.name }}</h5>
@@ -61,13 +61,15 @@ h1{
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  height: 110px;
+  
 }
 
 .card-img-top {
+  top: 0;
   width: 110px;
   height: 110px;
   object-fit: cover;
+  position: relative;
 }
 
 .rounded-circle {

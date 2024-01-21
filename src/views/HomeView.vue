@@ -14,7 +14,7 @@
             </div>
             <div class="col-sm gray-background"> 
               <div class="image-container">
-                <img src="https://i.postimg.cc/W4L1WGjD/C12-Aphelele-Joyi-1-removebg-preview_(1).png" class="img-fluid img-top" alt="profile image">
+                <img src="https://i.imgur.com/pOL6P1U.png" class="img-fluid img-top" alt="profile image">
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@
 }
 
 .card {
-  margin-top: 60px;
+  margin-top: 35px;
   width: 80%;
   height: 100%;
   
@@ -88,7 +88,7 @@ span {
 .image-container {
   width: 100%; 
   height: 100%;
-  background-image: url('https://i.postimg.cc/sf8nt9fm/32e636fed89a2304b3a0eb2adbbaaf50.jpg'); 
+  background-image: url('https://i.imgur.com/mfTtsuL.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -33,7 +33,7 @@
       <div class="row">
         <div class="col-lg-4" v-for="skill in skills" :key="skill.id">
           <div class="card mb-4">
-            <img :src="skill.image" class="card-img-top" :alt="skill.title">
+            <img :src="skill.image" class="card-img-top" :alt="skill.title" loading="lazy">
             <div class="card-body">
               <h5 class="card-title">{{ skill.title }}</h5>
               <p class="card-text" v-if="!skill.showMore">{{ truncateText(skill.description) }}</p>
@@ -136,7 +136,7 @@ export default {
 
 .box p {
   font-size: 0.9rem;
-  color: #d04434;
+  color: #3e98a5;
 }
 
 .container {
