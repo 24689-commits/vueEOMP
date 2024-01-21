@@ -14,7 +14,7 @@
             </div>
             <div class="col-sm gray-background"> 
               <div class="image-container">
-                <img src="https://i.imgur.com/pOL6P1U.png" class="img-fluid img-top" alt="profile image">
+                <img src="https://i.imgur.com/pOL6P1U.png" class="img-fluid img-top" alt="profile image" loading="lazy">
               </div>
             </div>
           </div>
